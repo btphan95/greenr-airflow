@@ -1,0 +1,101 @@
+[2020-06-05 20:29:31,623] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.download_images 2020-06-05T20:25:16.816224+00:00 [queued]>
+[2020-06-05 20:29:31,630] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.download_images 2020-06-05T20:25:16.816224+00:00 [queued]>
+[2020-06-05 20:29:31,630] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 20:29:31,630] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-05 20:29:31,630] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 20:29:31,640] {taskinstance.py:900} INFO - Executing <Task(BashOperator): download_images> on 2020-06-05T20:25:16.816224+00:00
+[2020-06-05 20:29:31,642] {standard_task_runner.py:53} INFO - Started process 22578 to run task
+[2020-06-05 20:29:31,694] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: ml_pipeline.download_images 2020-06-05T20:25:16.816224+00:00 [running]> airflow.us-central1-a.c.greenr-276821.internal
+[2020-06-05 20:29:31,708] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-06-05 20:29:31,728] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmp8l4_u5if/download_imagesea_m5341
+[2020-06-05 20:29:31,728] {bash_operator.py:115} INFO - Running command: python3 /home/binhphansamsung/airflow/scripts/download_images.py
+[2020-06-05 20:29:31,734] {bash_operator.py:122} INFO - Output:
+[2020-06-05 20:29:36,180] {bash_operator.py:126} INFO - █Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,180] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,181] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,181] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,181] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,181] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,191] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,192] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,202] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,203] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,203] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,203] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:36,203] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - █Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,201] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,208] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,208] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,208] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,208] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,208] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,216] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,217] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,220] {bash_operator.py:126} INFO - Error  Invalid URL '': No schema supplied. Perhaps you meant http://?
+[2020-06-05 20:29:38,230] {bash_operator.py:126} INFO - grass
+[2020-06-05 20:29:38,577] {bash_operator.py:126} INFO - █dandelion
+[2020-06-05 20:29:39,289] {bash_operator.py:126} INFO - █
+[2020-06-05 20:29:39,289] {bash_operator.py:130} INFO - Command exited with return code 0
+[2020-06-05 20:29:39,296] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=ml_pipeline, task_id=download_images, execution_date=20200605T202516, start_date=20200605T202931, end_date=20200605T202939
+[2020-06-05 20:29:41,616] {logging_mixin.py:112} INFO - [2020-06-05 20:29:41,616] {local_task_job.py:103} INFO - Task exited with return code 0

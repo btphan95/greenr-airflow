@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/lockfile/pidlockfile.py", line 77, in acquire
+    write_pid_to_pidfile(self.path)
+  File "/usr/local/lib/python3.6/dist-packages/lockfile/pidlockfile.py", line 161, in write_pid_to_pidfile
+    pidfile_fd = os.open(pidfile_path, open_flags, open_mode)
+FileExistsError: [Errno 17] File exists: '/home/binhphansamsung/airflow/airflow-scheduler.pid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/airflow", line 37, in <module>
+    args.func(args)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/utils/cli.py", line 75, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/bin/cli.py", line 1031, in scheduler
+    with ctx:
+  File "/usr/local/lib/python3.6/dist-packages/daemon/daemon.py", line 397, in __enter__
+    self.open()
+  File "/usr/local/lib/python3.6/dist-packages/daemon/daemon.py", line 389, in open
+    self.pidfile.__enter__()
+  File "/usr/local/lib/python3.6/dist-packages/lockfile/__init__.py", line 197, in __enter__
+    self.acquire()
+  File "/usr/local/lib/python3.6/dist-packages/daemon/pidfile.py", line 60, in acquire
+    super(TimeoutPIDLockFile, self).acquire(timeout, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/lockfile/pidlockfile.py", line 88, in acquire
+    self.path)
+lockfile.AlreadyLocked: /home/binhphansamsung/airflow/airflow-scheduler.pid is already locked

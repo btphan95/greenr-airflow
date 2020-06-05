@@ -1,0 +1,8 @@
+2020-06-05 04:30:42,391 INFO - Starting the scheduler
+2020-06-05 04:30:42,391 INFO - Running execute loop for -1 seconds
+2020-06-05 04:30:42,393 INFO - Processing each file at most -1 times
+2020-06-05 04:30:42,393 INFO - Searching for files in [1m/home/binhphansamsung/airflow/dags[0m
+2020-06-05 04:30:42,396 INFO - There are 25 files in [1m/home/binhphansamsung/airflow/dags[0m
+2020-06-05 04:30:42,396 INFO - Resetting orphaned tasks for active dag runs
+2020-06-05 04:30:42,407 INFO - Launched DagFileProcessorManager with pid: 10863
+2020-06-05 04:30:42,412 INFO - Configured default timezone <Timezone [UTC]>

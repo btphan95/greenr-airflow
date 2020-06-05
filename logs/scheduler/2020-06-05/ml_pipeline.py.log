@@ -1,0 +1,775 @@
+[2020-06-05 20:46:30,254] {scheduler_job.py:154} INFO - Started process (PID=24738) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:46:30,258] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:46:30,258] {logging_mixin.py:112} INFO - [2020-06-05 20:46:30,258] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:46:30,264] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:46:30,289] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:46:30,297] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:25:16.816224+00:00: manual__2020-06-05T20:25:16.816224+00:00, externally triggered: True>
+[2020-06-05 20:46:30,305] {logging_mixin.py:112} INFO - [2020-06-05 20:46:30,305] {dagrun.py:309} INFO - Marking run <DagRun ml_pipeline @ 2020-06-05 20:25:16.816224+00:00: manual__2020-06-05T20:25:16.816224+00:00, externally triggered: True> failed
+[2020-06-05 20:46:30,311] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:28:57.737907+00:00: manual__2020-06-05T20:28:57.737907+00:00, externally triggered: True>
+[2020-06-05 20:46:30,316] {logging_mixin.py:112} INFO - [2020-06-05 20:46:30,316] {dagrun.py:309} INFO - Marking run <DagRun ml_pipeline @ 2020-06-05 20:28:57.737907+00:00: manual__2020-06-05T20:28:57.737907+00:00, externally triggered: True> failed
+[2020-06-05 20:46:30,327] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:46:30,329] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.075 seconds
+[2020-06-05 20:47:20,309] {scheduler_job.py:154} INFO - Started process (PID=25146) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:47:20,324] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:47:20,325] {logging_mixin.py:112} INFO - [2020-06-05 20:47:20,325] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:47:20,330] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:47:20,358] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:47:20,366] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:47:20,370] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 20:48:10,368] {scheduler_job.py:154} INFO - Started process (PID=25185) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:48:10,373] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:48:10,373] {logging_mixin.py:112} INFO - [2020-06-05 20:48:10,373] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:48:10,379] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:48:10,407] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:48:10,416] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:48:10,420] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.052 seconds
+[2020-06-05 20:49:00,431] {scheduler_job.py:154} INFO - Started process (PID=25225) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:49:00,435] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:49:00,436] {logging_mixin.py:112} INFO - [2020-06-05 20:49:00,436] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:49:00,441] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:49:00,470] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:49:00,479] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:49:00,483] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.052 seconds
+[2020-06-05 20:49:50,487] {scheduler_job.py:154} INFO - Started process (PID=25278) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:49:50,509] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:49:50,509] {logging_mixin.py:112} INFO - [2020-06-05 20:49:50,509] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:49:50,514] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:49:50,543] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:49:50,551] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:49:50,554] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.067 seconds
+[2020-06-05 20:50:40,545] {scheduler_job.py:154} INFO - Started process (PID=25685) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:50:40,549] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:50:40,550] {logging_mixin.py:112} INFO - [2020-06-05 20:50:40,549] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:50:40,556] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:50:40,586] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:50:40,595] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:50:40,599] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.054 seconds
+[2020-06-05 20:51:30,604] {scheduler_job.py:154} INFO - Started process (PID=25777) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:51:30,636] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:51:30,637] {logging_mixin.py:112} INFO - [2020-06-05 20:51:30,637] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:51:30,643] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:51:30,670] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:51:30,678] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:51:30,681] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.078 seconds
+[2020-06-05 20:52:20,659] {scheduler_job.py:154} INFO - Started process (PID=25837) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:52:20,674] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:52:20,675] {logging_mixin.py:112} INFO - [2020-06-05 20:52:20,675] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:52:20,681] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:52:20,706] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:52:20,714] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:52:20,718] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.058 seconds
+[2020-06-05 20:53:13,098] {scheduler_job.py:154} INFO - Started process (PID=25901) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:53:13,119] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:53:13,120] {logging_mixin.py:112} INFO - [2020-06-05 20:53:13,120] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:53:13,126] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:53:13,987] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:53:13,995] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:53:13,999] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.901 seconds
+[2020-06-05 20:55:40,204] {scheduler_job.py:154} INFO - Started process (PID=26017) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:55:40,213] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:55:40,214] {logging_mixin.py:112} INFO - [2020-06-05 20:55:40,214] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:55:40,220] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:55:40,247] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:55:40,254] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 20:55:40,272] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:55:40,276] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: ml_pipeline.download_images 2020-06-05 20:55:29.312218+00:00 [scheduled]> in ORM
+[2020-06-05 20:55:40,285] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.081 seconds
+[2020-06-05 20:56:40,896] {scheduler_job.py:154} INFO - Started process (PID=26105) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:56:40,900] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 20:56:40,900] {logging_mixin.py:112} INFO - [2020-06-05 20:56:40,900] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:56:40,905] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 20:56:40,930] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 20:56:40,938] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 20:56:40,958] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 20:56:40,961] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: ml_pipeline.train 2020-06-05 20:55:29.312218+00:00 [scheduled]> in ORM
+[2020-06-05 20:56:40,971] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.075 seconds
+[2020-06-05 21:04:07,055] {scheduler_job.py:154} INFO - Started process (PID=26337) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:04:07,379] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:04:07,382] {logging_mixin.py:112} INFO - [2020-06-05 21:04:07,381] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:04:07,523] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:04:07,612] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:04:07,693] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:04:07,736] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:04:07,739] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.686 seconds
+[2020-06-05 21:04:57,084] {scheduler_job.py:154} INFO - Started process (PID=26367) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:04:57,090] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:04:57,090] {logging_mixin.py:112} INFO - [2020-06-05 21:04:57,090] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:04:57,099] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:04:57,138] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:04:57,151] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:04:57,180] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:04:57,184] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.100 seconds
+[2020-06-05 21:05:47,137] {scheduler_job.py:154} INFO - Started process (PID=26418) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:05:47,153] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:05:47,153] {logging_mixin.py:112} INFO - [2020-06-05 21:05:47,153] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:05:47,159] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:05:47,183] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:05:47,191] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:05:47,208] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:05:47,210] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.073 seconds
+[2020-06-05 21:06:37,183] {scheduler_job.py:154} INFO - Started process (PID=26461) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:06:37,187] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:06:37,187] {logging_mixin.py:112} INFO - [2020-06-05 21:06:37,187] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:06:37,192] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:06:37,220] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:06:37,228] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:06:37,245] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:06:37,248] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: ml_pipeline.serve 2020-06-05 20:55:29.312218+00:00 [scheduled]> in ORM
+[2020-06-05 21:06:37,258] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.075 seconds
+[2020-06-05 21:07:50,776] {scheduler_job.py:154} INFO - Started process (PID=26522) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:07:50,780] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:07:50,780] {logging_mixin.py:112} INFO - [2020-06-05 21:07:50,780] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:07:50,786] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:07:50,811] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:07:50,819] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:07:50,836] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:07:50,838] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.062 seconds
+[2020-06-05 21:09:26,608] {scheduler_job.py:154} INFO - Started process (PID=26594) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:09:26,623] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:09:26,623] {logging_mixin.py:112} INFO - [2020-06-05 21:09:26,623] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:09:26,629] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:09:26,654] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:09:26,662] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:09:26,679] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:09:26,682] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: ml_pipeline.serve 2020-06-05 20:55:29.312218+00:00 [scheduled]> in ORM
+[2020-06-05 21:09:26,692] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.084 seconds
+[2020-06-05 21:10:27,370] {scheduler_job.py:154} INFO - Started process (PID=26774) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:10:27,385] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:10:27,386] {logging_mixin.py:112} INFO - [2020-06-05 21:10:27,385] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:10:27,391] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:10:27,415] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:10:27,423] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:10:27,439] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:10:27,442] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.072 seconds
+[2020-06-05 21:11:17,412] {scheduler_job.py:154} INFO - Started process (PID=26813) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:11:17,415] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:11:17,416] {logging_mixin.py:112} INFO - [2020-06-05 21:11:17,416] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:11:17,421] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:11:17,446] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:11:17,454] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:11:17,470] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:11:17,472] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 21:12:07,471] {scheduler_job.py:154} INFO - Started process (PID=26844) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:12:07,475] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:12:07,476] {logging_mixin.py:112} INFO - [2020-06-05 21:12:07,476] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:12:07,482] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:12:07,511] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:12:07,518] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:12:07,536] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:12:07,540] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: ml_pipeline.serve 2020-06-05 20:55:29.312218+00:00 [scheduled]> in ORM
+[2020-06-05 21:12:07,549] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.078 seconds
+[2020-06-05 21:13:08,081] {scheduler_job.py:154} INFO - Started process (PID=26905) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:13:08,084] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:13:08,085] {logging_mixin.py:112} INFO - [2020-06-05 21:13:08,085] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:13:08,090] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:13:08,114] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:13:08,121] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:13:08,139] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:13:08,141] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.060 seconds
+[2020-06-05 21:13:58,124] {scheduler_job.py:154} INFO - Started process (PID=26945) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:13:58,141] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:13:58,142] {logging_mixin.py:112} INFO - [2020-06-05 21:13:58,142] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:13:58,147] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:13:58,173] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:13:58,181] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:13:58,199] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:13:58,201] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.077 seconds
+[2020-06-05 21:14:48,181] {scheduler_job.py:154} INFO - Started process (PID=26985) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:14:48,186] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:14:48,186] {logging_mixin.py:112} INFO - [2020-06-05 21:14:48,186] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:14:48,191] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:14:48,217] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:14:48,225] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:14:48,241] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:14:48,245] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: ml_pipeline.serve 2020-06-05 20:55:29.312218+00:00 [scheduled]> in ORM
+[2020-06-05 21:14:48,254] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.073 seconds
+[2020-06-05 21:15:48,827] {scheduler_job.py:154} INFO - Started process (PID=27038) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:15:48,831] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:15:48,832] {logging_mixin.py:112} INFO - [2020-06-05 21:15:48,832] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:15:48,838] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:15:48,871] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:15:48,882] {scheduler_job.py:759} INFO - Examining DAG run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True>
+[2020-06-05 21:15:48,895] {logging_mixin.py:112} INFO - [2020-06-05 21:15:48,894] {dagrun.py:309} INFO - Marking run <DagRun ml_pipeline @ 2020-06-05 20:55:29.312218+00:00: manual__2020-06-05T20:55:29.312218+00:00, externally triggered: True> failed
+[2020-06-05 21:15:48,941] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:15:48,945] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.118 seconds
+[2020-06-05 21:16:38,860] {scheduler_job.py:154} INFO - Started process (PID=27081) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:16:38,878] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:16:38,879] {logging_mixin.py:112} INFO - [2020-06-05 21:16:38,879] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:16:38,884] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:16:38,911] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:16:38,919] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:16:38,922] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.063 seconds
+[2020-06-05 21:17:28,916] {scheduler_job.py:154} INFO - Started process (PID=27139) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:17:28,920] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:17:28,921] {logging_mixin.py:112} INFO - [2020-06-05 21:17:28,920] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:17:28,926] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:17:28,952] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:17:28,960] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:17:28,964] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 21:18:18,978] {scheduler_job.py:154} INFO - Started process (PID=27164) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:18:18,982] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:18:18,982] {logging_mixin.py:112} INFO - [2020-06-05 21:18:18,982] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:18:18,988] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:18:19,013] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:18:19,021] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:18:19,024] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2020-06-05 21:19:09,036] {scheduler_job.py:154} INFO - Started process (PID=27202) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:19:09,052] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:19:09,053] {logging_mixin.py:112} INFO - [2020-06-05 21:19:09,052] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:19:09,058] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:19:09,086] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:19:09,094] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:19:09,097] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 21:19:59,108] {scheduler_job.py:154} INFO - Started process (PID=27279) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:19:59,113] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:19:59,114] {logging_mixin.py:112} INFO - [2020-06-05 21:19:59,114] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:19:59,121] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:19:59,162] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:19:59,174] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:19:59,179] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.072 seconds
+[2020-06-05 21:20:49,150] {scheduler_job.py:154} INFO - Started process (PID=27402) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:20:49,154] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:20:49,154] {logging_mixin.py:112} INFO - [2020-06-05 21:20:49,154] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:20:49,159] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:20:49,186] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:20:49,194] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:20:49,198] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 21:21:39,207] {scheduler_job.py:154} INFO - Started process (PID=27457) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:21:39,225] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:21:39,225] {logging_mixin.py:112} INFO - [2020-06-05 21:21:39,225] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:21:39,230] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:21:39,258] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:21:39,266] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:21:39,270] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2020-06-05 21:22:29,264] {scheduler_job.py:154} INFO - Started process (PID=27495) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:22:29,268] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:22:29,268] {logging_mixin.py:112} INFO - [2020-06-05 21:22:29,268] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:22:29,273] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:22:29,299] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:22:29,307] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:22:29,311] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 21:23:19,326] {scheduler_job.py:154} INFO - Started process (PID=27533) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:23:19,330] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:23:19,330] {logging_mixin.py:112} INFO - [2020-06-05 21:23:19,330] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:23:19,335] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:23:19,362] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:23:19,370] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:23:19,374] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 21:24:09,383] {scheduler_job.py:154} INFO - Started process (PID=27596) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:24:09,408] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:24:09,409] {logging_mixin.py:112} INFO - [2020-06-05 21:24:09,409] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:24:09,415] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:24:09,442] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:24:09,450] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:24:09,453] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.071 seconds
+[2020-06-05 21:24:59,440] {scheduler_job.py:154} INFO - Started process (PID=27841) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:24:59,443] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:24:59,444] {logging_mixin.py:112} INFO - [2020-06-05 21:24:59,444] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:24:59,450] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:24:59,476] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:24:59,484] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:24:59,487] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:25:49,513] {scheduler_job.py:154} INFO - Started process (PID=27928) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:25:49,518] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:25:49,518] {logging_mixin.py:112} INFO - [2020-06-05 21:25:49,518] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:25:49,523] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:25:49,547] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:25:49,555] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:25:49,558] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.045 seconds
+[2020-06-05 21:26:39,556] {scheduler_job.py:154} INFO - Started process (PID=27961) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:26:39,571] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:26:39,571] {logging_mixin.py:112} INFO - [2020-06-05 21:26:39,571] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:26:39,577] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:26:39,603] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:26:39,611] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:26:39,615] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.059 seconds
+[2020-06-05 21:27:29,615] {scheduler_job.py:154} INFO - Started process (PID=27999) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:27:29,619] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:27:29,620] {logging_mixin.py:112} INFO - [2020-06-05 21:27:29,620] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:27:29,625] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:27:29,651] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:27:29,659] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:27:29,663] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 21:28:19,677] {scheduler_job.py:154} INFO - Started process (PID=28133) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:28:19,681] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:28:19,681] {logging_mixin.py:112} INFO - [2020-06-05 21:28:19,681] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:28:19,686] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:28:19,712] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:28:19,719] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:28:19,723] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2020-06-05 21:29:09,733] {scheduler_job.py:154} INFO - Started process (PID=28171) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:29:09,758] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:29:09,758] {logging_mixin.py:112} INFO - [2020-06-05 21:29:09,758] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:29:09,764] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:29:09,791] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:29:09,799] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:29:09,803] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.070 seconds
+[2020-06-05 21:29:59,792] {scheduler_job.py:154} INFO - Started process (PID=28226) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:29:59,796] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:29:59,796] {logging_mixin.py:112} INFO - [2020-06-05 21:29:59,796] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:29:59,802] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:29:59,828] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:29:59,836] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:29:59,840] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 21:30:49,852] {scheduler_job.py:154} INFO - Started process (PID=28322) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:30:49,856] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:30:49,856] {logging_mixin.py:112} INFO - [2020-06-05 21:30:49,856] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:30:49,862] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:30:49,887] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:30:49,895] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:30:49,899] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 21:31:39,907] {scheduler_job.py:154} INFO - Started process (PID=28360) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:31:39,926] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:31:39,927] {logging_mixin.py:112} INFO - [2020-06-05 21:31:39,927] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:31:39,932] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:31:39,958] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:31:39,966] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:31:39,970] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.063 seconds
+[2020-06-05 21:32:29,964] {scheduler_job.py:154} INFO - Started process (PID=28386) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:32:29,967] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:32:29,968] {logging_mixin.py:112} INFO - [2020-06-05 21:32:29,968] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:32:29,973] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:32:30,001] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:32:30,008] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:32:30,012] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 21:33:20,036] {scheduler_job.py:154} INFO - Started process (PID=28428) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:33:20,041] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:33:20,041] {logging_mixin.py:112} INFO - [2020-06-05 21:33:20,041] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:33:20,048] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:33:20,085] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:33:20,097] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:33:20,102] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.066 seconds
+[2020-06-05 21:34:10,081] {scheduler_job.py:154} INFO - Started process (PID=28558) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:34:10,097] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:34:10,097] {logging_mixin.py:112} INFO - [2020-06-05 21:34:10,097] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:34:10,103] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:34:10,130] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:34:10,138] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:34:10,142] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 21:35:00,137] {scheduler_job.py:154} INFO - Started process (PID=28583) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:35:00,141] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:35:00,141] {logging_mixin.py:112} INFO - [2020-06-05 21:35:00,141] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:35:00,147] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:35:00,173] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:35:00,181] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:35:00,185] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:35:50,198] {scheduler_job.py:154} INFO - Started process (PID=28621) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:35:50,203] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:35:50,203] {logging_mixin.py:112} INFO - [2020-06-05 21:35:50,203] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:35:50,209] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:35:50,236] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:35:50,244] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:35:50,248] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 21:36:40,255] {scheduler_job.py:154} INFO - Started process (PID=28658) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:36:40,272] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:36:40,272] {logging_mixin.py:112} INFO - [2020-06-05 21:36:40,272] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:36:40,277] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:36:40,304] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:36:40,312] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:36:40,316] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 21:37:30,321] {scheduler_job.py:154} INFO - Started process (PID=28684) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:37:30,324] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:37:30,325] {logging_mixin.py:112} INFO - [2020-06-05 21:37:30,325] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:37:30,330] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:37:30,355] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:37:30,363] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:37:30,367] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2020-06-05 21:38:20,375] {scheduler_job.py:154} INFO - Started process (PID=28753) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:38:20,378] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:38:20,379] {logging_mixin.py:112} INFO - [2020-06-05 21:38:20,379] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:38:20,384] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:38:20,410] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:38:20,418] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:38:20,423] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:39:10,432] {scheduler_job.py:154} INFO - Started process (PID=28790) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:39:10,466] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:39:10,466] {logging_mixin.py:112} INFO - [2020-06-05 21:39:10,466] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:39:10,472] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:39:10,499] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:39:10,507] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:39:10,510] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.079 seconds
+[2020-06-05 21:40:00,491] {scheduler_job.py:154} INFO - Started process (PID=28828) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:40:00,495] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:40:00,495] {logging_mixin.py:112} INFO - [2020-06-05 21:40:00,495] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:40:00,501] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:40:00,527] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:40:00,534] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:40:00,538] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 21:40:50,552] {scheduler_job.py:154} INFO - Started process (PID=28853) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:40:50,556] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:40:50,556] {logging_mixin.py:112} INFO - [2020-06-05 21:40:50,556] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:40:50,562] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:40:50,587] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:40:50,595] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:40:50,599] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:41:40,608] {scheduler_job.py:154} INFO - Started process (PID=28891) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:41:40,634] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:41:40,635] {logging_mixin.py:112} INFO - [2020-06-05 21:41:40,635] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:41:40,641] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:41:40,667] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:41:40,675] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:41:40,679] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.071 seconds
+[2020-06-05 21:42:30,667] {scheduler_job.py:154} INFO - Started process (PID=28931) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:42:30,671] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:42:30,672] {logging_mixin.py:112} INFO - [2020-06-05 21:42:30,671] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:42:30,677] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:42:30,703] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:42:30,711] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:42:30,715] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:43:20,728] {scheduler_job.py:154} INFO - Started process (PID=29024) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:43:20,732] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:43:20,733] {logging_mixin.py:112} INFO - [2020-06-05 21:43:20,732] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:43:20,738] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:43:20,771] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:43:20,778] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:43:20,782] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.055 seconds
+[2020-06-05 21:44:10,788] {scheduler_job.py:154} INFO - Started process (PID=29691) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:44:10,835] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:44:10,836] {logging_mixin.py:112} INFO - [2020-06-05 21:44:10,836] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:44:10,843] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:44:10,878] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:44:10,889] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:44:10,894] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.106 seconds
+[2020-06-05 21:45:00,839] {scheduler_job.py:154} INFO - Started process (PID=31776) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:45:00,843] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:45:00,843] {logging_mixin.py:112} INFO - [2020-06-05 21:45:00,843] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:45:00,849] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:45:00,876] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:45:00,884] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:45:00,888] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 21:45:50,911] {scheduler_job.py:154} INFO - Started process (PID=854) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:45:50,915] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:45:50,915] {logging_mixin.py:112} INFO - [2020-06-05 21:45:50,915] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:45:50,921] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:45:50,945] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:45:50,953] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:45:50,957] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2020-06-05 21:46:40,948] {scheduler_job.py:154} INFO - Started process (PID=1487) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:46:40,963] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:46:40,964] {logging_mixin.py:112} INFO - [2020-06-05 21:46:40,964] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:46:40,971] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:46:41,000] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:46:41,008] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:46:41,013] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2020-06-05 21:47:31,005] {scheduler_job.py:154} INFO - Started process (PID=1526) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:47:31,010] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:47:31,011] {logging_mixin.py:112} INFO - [2020-06-05 21:47:31,011] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:47:31,016] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:47:31,042] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:47:31,050] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:47:31,054] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:48:21,073] {scheduler_job.py:154} INFO - Started process (PID=2385) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:48:21,078] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:48:21,079] {logging_mixin.py:112} INFO - [2020-06-05 21:48:21,079] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:48:21,086] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:48:21,142] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:48:21,155] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:48:21,161] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.088 seconds
+[2020-06-05 21:49:11,674] {scheduler_job.py:154} INFO - Started process (PID=2433) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:49:11,705] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:49:11,706] {logging_mixin.py:112} INFO - [2020-06-05 21:49:11,706] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:49:11,713] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:49:11,747] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:49:11,759] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:49:11,764] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.090 seconds
+[2020-06-05 21:50:01,726] {scheduler_job.py:154} INFO - Started process (PID=2698) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:50:01,731] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:50:01,732] {logging_mixin.py:112} INFO - [2020-06-05 21:50:01,731] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:50:01,739] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:50:01,778] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:50:01,790] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:50:01,795] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.069 seconds
+[2020-06-05 21:50:54,888] {scheduler_job.py:154} INFO - Started process (PID=2745) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:50:54,893] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:50:54,894] {logging_mixin.py:112} INFO - [2020-06-05 21:50:54,894] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:50:54,907] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:50:54,944] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:50:54,957] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:50:54,963] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.075 seconds
+[2020-06-05 21:51:45,320] {scheduler_job.py:154} INFO - Started process (PID=2825) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:51:45,339] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:51:45,339] {logging_mixin.py:112} INFO - [2020-06-05 21:51:45,339] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:51:45,346] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:51:45,390] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:51:45,398] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:51:45,403] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.083 seconds
+[2020-06-05 21:52:35,372] {scheduler_job.py:154} INFO - Started process (PID=3111) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:52:35,378] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:52:35,379] {logging_mixin.py:112} INFO - [2020-06-05 21:52:35,378] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:52:35,386] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:52:35,423] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:52:35,437] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:52:35,442] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.071 seconds
+[2020-06-05 21:53:25,428] {scheduler_job.py:154} INFO - Started process (PID=3183) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:53:25,432] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:53:25,433] {logging_mixin.py:112} INFO - [2020-06-05 21:53:25,432] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:53:25,438] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:53:25,464] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:53:25,472] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:53:25,476] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 21:54:15,484] {scheduler_job.py:154} INFO - Started process (PID=3233) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:54:15,506] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:54:15,507] {logging_mixin.py:112} INFO - [2020-06-05 21:54:15,507] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:54:15,512] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:54:15,538] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:54:15,546] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:54:15,549] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.065 seconds
+[2020-06-05 21:55:05,542] {scheduler_job.py:154} INFO - Started process (PID=3296) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:55:05,546] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:55:05,546] {logging_mixin.py:112} INFO - [2020-06-05 21:55:05,546] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:55:05,552] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:55:05,579] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:55:05,586] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:55:05,590] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:55:55,602] {scheduler_job.py:154} INFO - Started process (PID=3438) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:55:55,605] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:55:55,606] {logging_mixin.py:112} INFO - [2020-06-05 21:55:55,606] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:55:55,612] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:55:55,638] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:55:55,646] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:55:55,650] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 21:56:45,658] {scheduler_job.py:154} INFO - Started process (PID=3476) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:56:45,676] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:56:45,677] {logging_mixin.py:112} INFO - [2020-06-05 21:56:45,677] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:56:45,683] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:56:45,710] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:56:45,718] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:56:45,721] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2020-06-05 21:57:35,715] {scheduler_job.py:154} INFO - Started process (PID=3644) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:57:35,719] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:57:35,720] {logging_mixin.py:112} INFO - [2020-06-05 21:57:35,720] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:57:35,726] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:57:35,754] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:57:35,762] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:57:35,766] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.051 seconds
+[2020-06-05 21:58:25,775] {scheduler_job.py:154} INFO - Started process (PID=3846) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:58:25,780] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:58:25,780] {logging_mixin.py:112} INFO - [2020-06-05 21:58:25,780] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:58:25,785] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:58:25,815] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:58:25,824] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:58:25,828] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.053 seconds
+[2020-06-05 21:59:15,830] {scheduler_job.py:154} INFO - Started process (PID=4335) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:59:15,846] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 21:59:15,847] {logging_mixin.py:112} INFO - [2020-06-05 21:59:15,847] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:59:15,852] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 21:59:15,881] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 21:59:15,889] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 21:59:15,893] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.063 seconds
+[2020-06-05 22:00:05,892] {scheduler_job.py:154} INFO - Started process (PID=4495) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:00:05,898] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:00:05,898] {logging_mixin.py:112} INFO - [2020-06-05 22:00:05,898] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:00:05,905] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:00:05,944] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:00:05,957] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:00:05,962] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.070 seconds
+[2020-06-05 22:00:55,962] {scheduler_job.py:154} INFO - Started process (PID=4746) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:00:55,965] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:00:55,966] {logging_mixin.py:112} INFO - [2020-06-05 22:00:55,966] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:00:55,971] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:00:55,997] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:00:56,005] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:00:56,009] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:01:46,001] {scheduler_job.py:154} INFO - Started process (PID=4983) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:01:46,021] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:01:46,022] {logging_mixin.py:112} INFO - [2020-06-05 22:01:46,022] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:01:46,028] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:01:46,054] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:01:46,062] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:01:46,065] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2020-06-05 22:02:36,059] {scheduler_job.py:154} INFO - Started process (PID=5008) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:02:36,063] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:02:36,063] {logging_mixin.py:112} INFO - [2020-06-05 22:02:36,063] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:02:36,069] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:02:36,097] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:02:36,104] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:02:36,108] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 22:03:26,118] {scheduler_job.py:154} INFO - Started process (PID=5047) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:03:26,122] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:03:26,122] {logging_mixin.py:112} INFO - [2020-06-05 22:03:26,122] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:03:26,128] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:03:26,154] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:03:26,163] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:03:26,166] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 22:04:16,178] {scheduler_job.py:154} INFO - Started process (PID=5175) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:04:16,205] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:04:16,206] {logging_mixin.py:112} INFO - [2020-06-05 22:04:16,206] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:04:16,215] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:04:16,271] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:04:16,286] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:04:16,292] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.114 seconds
+[2020-06-05 22:05:06,227] {scheduler_job.py:154} INFO - Started process (PID=5308) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:05:06,231] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:05:06,231] {logging_mixin.py:112} INFO - [2020-06-05 22:05:06,231] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:05:06,237] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:05:06,263] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:05:06,271] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:05:06,275] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:05:56,284] {scheduler_job.py:154} INFO - Started process (PID=5496) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:05:56,287] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:05:56,288] {logging_mixin.py:112} INFO - [2020-06-05 22:05:56,288] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:05:56,293] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:05:56,321] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:05:56,329] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:05:56,333] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 22:06:46,337] {scheduler_job.py:154} INFO - Started process (PID=5537) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:06:46,365] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:06:46,366] {logging_mixin.py:112} INFO - [2020-06-05 22:06:46,365] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:06:46,371] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:06:46,397] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:06:46,405] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:06:46,409] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.072 seconds
+[2020-06-05 22:07:36,395] {scheduler_job.py:154} INFO - Started process (PID=5611) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:07:36,398] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:07:36,399] {logging_mixin.py:112} INFO - [2020-06-05 22:07:36,399] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:07:36,405] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:07:36,431] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:07:36,439] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:07:36,443] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:08:26,455] {scheduler_job.py:154} INFO - Started process (PID=5641) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:08:26,458] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:08:26,459] {logging_mixin.py:112} INFO - [2020-06-05 22:08:26,459] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:08:26,465] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:08:26,491] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:08:26,499] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:08:26,502] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:09:16,516] {scheduler_job.py:154} INFO - Started process (PID=5791) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:09:16,538] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:09:16,539] {logging_mixin.py:112} INFO - [2020-06-05 22:09:16,539] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:09:16,548] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:09:16,591] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:09:16,606] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:09:16,613] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.096 seconds
+[2020-06-05 22:10:06,567] {scheduler_job.py:154} INFO - Started process (PID=5844) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:10:06,571] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:10:06,572] {logging_mixin.py:112} INFO - [2020-06-05 22:10:06,572] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:10:06,577] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:10:06,603] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:10:06,611] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:10:06,615] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 22:10:56,627] {scheduler_job.py:154} INFO - Started process (PID=5884) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:10:56,632] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:10:56,633] {logging_mixin.py:112} INFO - [2020-06-05 22:10:56,633] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:10:56,639] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:10:56,668] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:10:56,677] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:10:56,681] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.054 seconds
+[2020-06-05 22:11:46,682] {scheduler_job.py:154} INFO - Started process (PID=5927) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:11:46,702] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:11:46,702] {logging_mixin.py:112} INFO - [2020-06-05 22:11:46,702] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:11:46,708] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:11:46,735] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:11:46,742] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:11:46,746] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2020-06-05 22:12:36,739] {scheduler_job.py:154} INFO - Started process (PID=5980) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:12:36,743] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:12:36,744] {logging_mixin.py:112} INFO - [2020-06-05 22:12:36,744] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:12:36,750] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:12:36,777] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:12:36,785] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:12:36,788] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 22:13:26,800] {scheduler_job.py:154} INFO - Started process (PID=6006) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:13:26,803] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:13:26,804] {logging_mixin.py:112} INFO - [2020-06-05 22:13:26,804] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:13:26,810] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:13:26,835] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:13:26,843] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:13:26,847] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 22:14:16,855] {scheduler_job.py:154} INFO - Started process (PID=6046) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:14:16,878] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:14:16,879] {logging_mixin.py:112} INFO - [2020-06-05 22:14:16,879] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:14:16,884] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:14:16,911] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:14:16,918] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:14:16,922] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.067 seconds
+[2020-06-05 22:15:06,911] {scheduler_job.py:154} INFO - Started process (PID=6084) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:15:06,915] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:15:06,916] {logging_mixin.py:112} INFO - [2020-06-05 22:15:06,916] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:15:06,921] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:15:06,947] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:15:06,955] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:15:06,959] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2020-06-05 22:15:56,973] {scheduler_job.py:154} INFO - Started process (PID=6118) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:15:56,976] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:15:56,977] {logging_mixin.py:112} INFO - [2020-06-05 22:15:56,977] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:15:56,982] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:15:57,007] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:15:57,015] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:15:57,019] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2020-06-05 22:16:47,029] {scheduler_job.py:154} INFO - Started process (PID=6156) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:16:47,047] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:16:47,047] {logging_mixin.py:112} INFO - [2020-06-05 22:16:47,047] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:16:47,052] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:16:47,080] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:16:47,088] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:16:47,092] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2020-06-05 22:17:37,085] {scheduler_job.py:154} INFO - Started process (PID=6199) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:17:37,088] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:17:37,089] {logging_mixin.py:112} INFO - [2020-06-05 22:17:37,089] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:17:37,094] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:17:37,121] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:17:37,129] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:17:37,133] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:18:27,145] {scheduler_job.py:154} INFO - Started process (PID=6237) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:18:27,149] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:18:27,149] {logging_mixin.py:112} INFO - [2020-06-05 22:18:27,149] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:18:27,155] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:18:27,182] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:18:27,190] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:18:27,194] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 22:19:17,200] {scheduler_job.py:154} INFO - Started process (PID=6263) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:19:17,214] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:19:17,215] {logging_mixin.py:112} INFO - [2020-06-05 22:19:17,215] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:19:17,221] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:19:17,249] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:19:17,257] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:19:17,261] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 22:20:07,259] {scheduler_job.py:154} INFO - Started process (PID=6304) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:20:07,263] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:20:07,264] {logging_mixin.py:112} INFO - [2020-06-05 22:20:07,264] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:20:07,269] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:20:07,295] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:20:07,303] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:20:07,307] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:20:57,318] {scheduler_job.py:154} INFO - Started process (PID=6341) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:20:57,322] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:20:57,322] {logging_mixin.py:112} INFO - [2020-06-05 22:20:57,322] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:20:57,328] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:20:57,355] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:20:57,363] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:20:57,367] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2020-06-05 22:21:47,372] {scheduler_job.py:154} INFO - Started process (PID=6367) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:21:47,390] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:21:47,390] {logging_mixin.py:112} INFO - [2020-06-05 22:21:47,390] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:21:47,395] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:21:47,422] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:21:47,430] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:21:47,433] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 22:22:37,429] {scheduler_job.py:154} INFO - Started process (PID=6405) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:22:37,433] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:22:37,434] {logging_mixin.py:112} INFO - [2020-06-05 22:22:37,434] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:22:37,439] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:22:37,466] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:22:37,474] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:22:37,478] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:23:27,490] {scheduler_job.py:154} INFO - Started process (PID=6442) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:23:27,494] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:23:27,495] {logging_mixin.py:112} INFO - [2020-06-05 22:23:27,495] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:23:27,501] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:23:27,527] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:23:27,535] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:23:27,538] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.048 seconds
+[2020-06-05 22:24:17,547] {scheduler_job.py:154} INFO - Started process (PID=6468) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:24:17,563] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:24:17,564] {logging_mixin.py:112} INFO - [2020-06-05 22:24:17,564] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:24:17,570] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:24:17,596] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:24:17,604] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:24:17,608] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2020-06-05 22:25:07,604] {scheduler_job.py:154} INFO - Started process (PID=6506) to work on /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:25:07,609] {scheduler_job.py:1562} INFO - Processing file /home/binhphansamsung/airflow/dags/ml_pipeline.py for tasks to queue
+[2020-06-05 22:25:07,609] {logging_mixin.py:112} INFO - [2020-06-05 22:25:07,609] {dagbag.py:396} INFO - Filling up the DagBag from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:25:07,614] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['ml_pipeline']) retrieved from /home/binhphansamsung/airflow/dags/ml_pipeline.py
+[2020-06-05 22:25:07,642] {scheduler_job.py:1284} INFO - Processing ml_pipeline
+[2020-06-05 22:25:07,650] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: ml_pipeline> because no tasks in DAG have SLAs
+[2020-06-05 22:25:07,654] {scheduler_job.py:162} INFO - Processing /home/binhphansamsung/airflow/dags/ml_pipeline.py took 0.050 seconds

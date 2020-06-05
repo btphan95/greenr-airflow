@@ -1,0 +1,57 @@
+[2020-06-05 20:39:02,044] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.train 2020-06-05T20:25:16.816224+00:00 [queued]>
+[2020-06-05 20:39:02,054] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.train 2020-06-05T20:25:16.816224+00:00 [queued]>
+[2020-06-05 20:39:02,054] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 20:39:02,054] {taskinstance.py:880} INFO - Starting attempt 4 of 4
+[2020-06-05 20:39:02,054] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 20:39:02,064] {taskinstance.py:900} INFO - Executing <Task(BashOperator): train> on 2020-06-05T20:25:16.816224+00:00
+[2020-06-05 20:39:02,068] {standard_task_runner.py:53} INFO - Started process 23163 to run task
+[2020-06-05 20:39:02,120] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: ml_pipeline.train 2020-06-05T20:25:16.816224+00:00 [running]> airflow.us-central1-a.c.greenr-276821.internal
+[2020-06-05 20:39:02,133] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-06-05 20:39:02,134] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmpgdjhy0o7/train3f23eb8y
+[2020-06-05 20:39:02,134] {bash_operator.py:115} INFO - Running command: python3 /home/binhphansamsung/airflow/scripts/train.py
+[2020-06-05 20:39:02,142] {bash_operator.py:122} INFO - Output:
+[2020-06-05 20:39:05,129] {bash_operator.py:126} INFO - Traceback (most recent call last):
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/data_block.py", line 594, in _check_kwargs
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -     try: x.apply_tfms(tfms, **kwargs)
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 123, in apply_tfms
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -     else: x = tfm(x)
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 524, in __call__
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -     return self.tfm(x, *args, **{**self.resolved, **kwargs}) if self.do_run else x
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 470, in __call__
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -     if args: return self.calc(*args, **kwargs)
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 475, in calc
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -     if self._wrap: return getattr(x, self._wrap)(self.func, *args, **kwargs)
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 183, in affine
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -     self.affine_mat = self.affine_mat @ m
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO - RuntimeError: Expected object of scalar type Float but got scalar type Double for argument #3 'mat2' in call to _th_addmm_out
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO - 
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO - During handling of the above exception, another exception occurred:
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO - 
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO - Traceback (most recent call last):
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/airflow/scripts/train.py", line 7, in <module>
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -     ds_tfms=get_transforms(), size=224, num_workers=4).normalize(imagenet_stats)
+[2020-06-05 20:39:05,130] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/data.py", line 111, in from_folder
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -     return cls.create_from_ll(src, test=test, **kwargs)
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/data.py", line 97, in create_from_ll
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -     mode=mode, tfm_y=tfm_y)
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/data_block.py", line 505, in transform
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -     self.train.transform(tfms[0], **kwargs)
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/data_block.py", line 724, in transform
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -     _check_kwargs(self.x, tfms, **kwargs)
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/data_block.py", line 596, in _check_kwargs
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -     raise Exception(f"It's not possible to apply those transforms to your dataset:\n {e}")
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO - Exception: It's not possible to apply those transforms to your dataset:
+[2020-06-05 20:39:05,131] {bash_operator.py:126} INFO -  Expected object of scalar type Float but got scalar type Double for argument #3 'mat2' in call to _th_addmm_out
+[2020-06-05 20:39:05,728] {bash_operator.py:130} INFO - Command exited with return code 1
+[2020-06-05 20:39:05,739] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-06-05 20:39:05,741] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=ml_pipeline, task_id=train, execution_date=20200605T202516, start_date=20200605T203902, end_date=20200605T203905
+[2020-06-05 20:39:12,037] {logging_mixin.py:112} INFO - [2020-06-05 20:39:12,037] {local_task_job.py:103} INFO - Task exited with return code 1

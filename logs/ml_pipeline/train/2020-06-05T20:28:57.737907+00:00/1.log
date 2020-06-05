@@ -1,0 +1,74 @@
+[2020-06-05 20:30:36,334] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.train 2020-06-05T20:28:57.737907+00:00 [queued]>
+[2020-06-05 20:30:36,343] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.train 2020-06-05T20:28:57.737907+00:00 [queued]>
+[2020-06-05 20:30:36,343] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 20:30:36,343] {taskinstance.py:880} INFO - Starting attempt 1 of 4
+[2020-06-05 20:30:36,343] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 20:30:36,352] {taskinstance.py:900} INFO - Executing <Task(BashOperator): train> on 2020-06-05T20:28:57.737907+00:00
+[2020-06-05 20:30:36,355] {standard_task_runner.py:53} INFO - Started process 22720 to run task
+[2020-06-05 20:30:36,407] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: ml_pipeline.train 2020-06-05T20:28:57.737907+00:00 [running]> airflow.us-central1-a.c.greenr-276821.internal
+[2020-06-05 20:30:36,420] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-06-05 20:30:36,421] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmppup_rtff/train30xfaa9h
+[2020-06-05 20:30:36,421] {bash_operator.py:115} INFO - Running command: python3 /home/binhphansamsung/airflow/scripts/train.py
+[2020-06-05 20:30:36,427] {bash_operator.py:122} INFO - Output:
+[2020-06-05 20:30:40,993] {bash_operator.py:126} INFO - You can deactivate this warning by passing `no_check=True`.
+[2020-06-05 20:30:40,994] {bash_operator.py:126} INFO - █epoch     train_loss  valid_loss  error_rate  time
+[2020-06-05 20:30:40,997] {bash_operator.py:126} INFO - █/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/basic_data.py:262: UserWarning: There seems to be something wrong with your dataset, for example, in the first batch can't access these elements in self.train_ds: 84,168,62,65,33...
+[2020-06-05 20:30:40,997] {bash_operator.py:126} INFO -   warn(warn_msg)
+[2020-06-05 20:30:41,182] {bash_operator.py:126} INFO - Traceback (most recent call last):
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/airflow/scripts/train.py", line 10, in <module>
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     learn.fit_one_cycle(4)
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/train.py", line 23, in fit_one_cycle
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     learn.fit(cyc_len, max_lr, wd=wd, callbacks=callbacks)
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/basic_train.py", line 200, in fit
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     fit(epochs, self, metrics=self.metrics, callbacks=self.callbacks+callbacks)
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/basic_train.py", line 99, in fit
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     for xb,yb in progress_bar(learn.data.train_dl, parent=pbar):
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastprogress/fastprogress.py", line 47, in __iter__
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     raise e
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastprogress/fastprogress.py", line 41, in __iter__
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     for i,o in enumerate(self.gen):
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/basic_data.py", line 75, in __iter__
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     for b in self.dl: yield self.proc_batch(b)
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 345, in __next__
+[2020-06-05 20:30:41,183] {bash_operator.py:126} INFO -     data = self._next_data()
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 856, in _next_data
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -     return self._process_data(data)
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 881, in _process_data
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -     data.reraise()
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/torch/_utils.py", line 395, in reraise
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -     raise self.exc_type(msg)
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO - RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO - Original Traceback (most recent call last):
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/torch/utils/data/_utils/worker.py", line 178, in _worker_loop
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -     data = fetcher.fetch(index)
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -     data = [self.dataset[idx] for idx in possibly_batched_index]
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -     data = [self.dataset[idx] for idx in possibly_batched_index]
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/data_block.py", line 654, in __getitem__
+[2020-06-05 20:30:41,184] {bash_operator.py:126} INFO -     x = x.apply_tfms(self.tfms, **self.tfmargs)
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 123, in apply_tfms
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -     else: x = tfm(x)
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 524, in __call__
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -     return self.tfm(x, *args, **{**self.resolved, **kwargs}) if self.do_run else x
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 470, in __call__
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -     if args: return self.calc(*args, **kwargs)
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 475, in calc
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -     if self._wrap: return getattr(x, self._wrap)(self.func, *args, **kwargs)
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -   File "/home/binhphansamsung/.local/lib/python3.6/site-packages/fastai/vision/image.py", line 183, in affine
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO -     self.affine_mat = self.affine_mat @ m
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO - RuntimeError: Expected object of scalar type Float but got scalar type Double for argument #3 'mat2' in call to _th_addmm_out
+[2020-06-05 20:30:41,185] {bash_operator.py:126} INFO - 
+[2020-06-05 20:30:41,590] {bash_operator.py:130} INFO - Command exited with return code 1
+[2020-06-05 20:30:41,597] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-06-05 20:30:41,599] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-06-05 20:30:46,328] {logging_mixin.py:112} INFO - [2020-06-05 20:30:46,327] {local_task_job.py:103} INFO - Task exited with return code 1

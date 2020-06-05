@@ -1,0 +1,26 @@
+[2020-06-05 19:21:01,755] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: first_dag.download_images 2020-06-05T19:14:14.586422+00:00 [queued]>
+[2020-06-05 19:21:01,761] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: first_dag.download_images 2020-06-05T19:14:14.586422+00:00 [queued]>
+[2020-06-05 19:21:01,762] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 19:21:01,762] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-06-05 19:21:01,762] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 19:21:01,771] {taskinstance.py:900} INFO - Executing <Task(BashOperator): download_images> on 2020-06-05T19:14:14.586422+00:00
+[2020-06-05 19:21:01,774] {standard_task_runner.py:53} INFO - Started process 15820 to run task
+[2020-06-05 19:21:01,824] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: first_dag.download_images 2020-06-05T19:14:14.586422+00:00 [running]> airflow.us-central1-a.c.greenr-276821.internal
+[2020-06-05 19:21:01,835] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-06-05 19:21:01,836] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmpecfibvqj/download_imagest1ips_xm
+[2020-06-05 19:21:01,836] {bash_operator.py:115} INFO - Running command: python /Users/binhphan/airflow/scripts/download_images.py
+[2020-06-05 19:21:01,842] {bash_operator.py:122} INFO - Output:
+[2020-06-05 19:21:01,852] {bash_operator.py:126} INFO - python: can't open file '/Users/binhphan/airflow/scripts/download_images.py': [Errno 2] No such file or directory
+[2020-06-05 19:21:01,853] {bash_operator.py:130} INFO - Command exited with return code 2
+[2020-06-05 19:21:01,859] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-06-05 19:21:01,861] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=first_dag, task_id=download_images, execution_date=20200605T191414, start_date=20200605T192101, end_date=20200605T192101
+[2020-06-05 19:21:11,752] {logging_mixin.py:112} INFO - [2020-06-05 19:21:11,751] {local_task_job.py:103} INFO - Task exited with return code 1

@@ -1,0 +1,31 @@
+[2020-06-05 21:14:51,462] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.serve 2020-06-05T20:55:29.312218+00:00 [queued]>
+[2020-06-05 21:14:51,470] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: ml_pipeline.serve 2020-06-05T20:55:29.312218+00:00 [queued]>
+[2020-06-05 21:14:51,470] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 21:14:51,470] {taskinstance.py:880} INFO - Starting attempt 4 of 4
+[2020-06-05 21:14:51,470] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 21:14:51,479] {taskinstance.py:900} INFO - Executing <Task(BashOperator): serve> on 2020-06-05T20:55:29.312218+00:00
+[2020-06-05 21:14:51,482] {standard_task_runner.py:53} INFO - Started process 26993 to run task
+[2020-06-05 21:14:51,533] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: ml_pipeline.serve 2020-06-05T20:55:29.312218+00:00 [running]> airflow.us-central1-a.c.greenr-276821.internal
+[2020-06-05 21:14:51,545] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-06-05 21:14:51,545] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmp7l1yis9x/serve1h2zqn32
+[2020-06-05 21:14:51,545] {bash_operator.py:115} INFO - Running command: python3 /home/binhphansamsung/airflow/scripts/serve.py serve
+[2020-06-05 21:14:51,552] {bash_operator.py:122} INFO - Output:
+[2020-06-05 21:14:53,985] {bash_operator.py:126} INFO - INFO:     Started server process [26995]
+[2020-06-05 21:14:53,985] {bash_operator.py:126} INFO - INFO:     Waiting for application startup.
+[2020-06-05 21:14:53,985] {bash_operator.py:126} INFO - INFO:     Application startup complete.
+[2020-06-05 21:14:53,986] {bash_operator.py:126} INFO - ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8008): address already in use
+[2020-06-05 21:14:53,986] {bash_operator.py:126} INFO - INFO:     Waiting for application shutdown.
+[2020-06-05 21:14:53,986] {bash_operator.py:126} INFO - INFO:     Application shutdown complete.
+[2020-06-05 21:14:54,554] {bash_operator.py:130} INFO - Command exited with return code 1
+[2020-06-05 21:14:54,564] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-06-05 21:14:54,566] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=ml_pipeline, task_id=serve, execution_date=20200605T205529, start_date=20200605T211451, end_date=20200605T211454
+[2020-06-05 21:15:01,457] {logging_mixin.py:112} INFO - [2020-06-05 21:15:01,456] {local_task_job.py:103} INFO - Task exited with return code 1
