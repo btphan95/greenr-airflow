@@ -39,20 +39,20 @@ dag = DAG(
 # t1, t2 and t3 are examples of tasks created by instantiating operators
 download_images = BashOperator(
     task_id='download_images',
-    bash_command='python3 /home/binhphansamsung/airflow/scripts/download_images.py',
+    bash_command='python3 /usr/local/airflow/scripts/download_images.py',
     dag=dag,
 )
 
 train = BashOperator(
     task_id='train',
     depends_on_past=False,
-    bash_command='python3 /home/binhphansamsung/airflow/scripts/train.py',
+    bash_command='python3 /usr/local/airflow/scripts/train.py',
     retries=3,
     dag=dag,
 )
 serve_commands = """
     lsof -i tcp:8008 | awk 'NR!=1 {print $2}' | xargs kill;
-    python3 /home/binhphansamsung/airflow/scripts/serve.py serve
+    python3 /usr/local/airflow/scripts/serve.py serve
     """
 serve = BashOperator(
     task_id='serve',

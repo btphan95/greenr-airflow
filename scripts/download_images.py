@@ -2,7 +2,7 @@ from fastai.vision import download_images, verify_images
 from fastai.imports import *
 
 classes = ['grass','dandelion']
-path = Path('/home/binhphansamsung/airflow/data')
+path = Path('/usr/local/airflow/data')
 folder = 'grass'
 file = 'grass.csv'
 dest = path/folder
