@@ -21,7 +21,7 @@ async def get_bytes(url):
             return await response.read()
 
 app = Starlette()
-path = Path('/usr/local/airflow//data')
+path = Path('/tmp')
 learner = load_learner(path)
 
 @app.route("/upload", methods = ["POST"])

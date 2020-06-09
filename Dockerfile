@@ -72,16 +72,15 @@ RUN set -ex \
     && apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y git
-#RUN mkdir /usr/local/airflow
 
-COPY config/airflow.cfg ${AIRFLOW_USER_HOME}/airflow.cfg
+#COPY config/airflow.cfg ${AIRFLOW_USER_HOME}/airflow.cfg
 COPY requirements.txt requirements.txt
+RUN pip install git+https://github.com/fastai/fastai.git
+RUN pip install -r requirements.txt
 COPY dags /usr/local/airflow/dags
 COPY data /usr/local/airflow/data
 COPY scripts /usr/local/airflow/scripts
 # Install required libraries
-RUN pip install git+https://github.com/fastai/fastai.git
-RUN pip install -r requirements.txt
 EXPOSE 8008 8080
 #USER airflow
 #RUN chown -R airflow:airflow ${AIRFLOW_USER_HOME}

@@ -5,7 +5,7 @@ classes = ['grass','dandelion']
 path = Path('/usr/local/airflow/data')
 folder = 'grass'
 file = 'grass.csv'
-dest = path/folder
+dest = Path('/tmp')
 dest.mkdir(parents=True, exist_ok=True)
 download_images(path/file, dest, max_pics=200)
 folder = 'dandelion'
