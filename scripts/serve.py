@@ -1,5 +1,5 @@
 #deep learning libraries
-from fastai.vision import load_learner, Path, defaults
+from fastai.vision import load_learner, Path, defaults, open_image
 import torch
 defaults.device = torch.device('cpu')
 
@@ -10,6 +10,7 @@ import uvicorn
 import aiohttp
 import asyncio
 
+import io
 import os
 import sys
 import base64 
@@ -21,7 +22,7 @@ async def get_bytes(url):
             return await response.read()
 
 app = Starlette()
-path = Path('/tmp')
+path = Path('/usr/local/airflow/data')
 learner = load_learner(path)
 
 @app.route("/upload", methods = ["POST"])
