@@ -22,9 +22,7 @@ server {
 	listen 80;
 
 	location / {
-		# First attempt to serve request as file, then
-		# as directory, then fall back to displaying a 404.
-		proxy_pass http://0.0.0.0:8080;
+		proxy_pass http://0.0.0.0:8080/;
 	}
 }
 
