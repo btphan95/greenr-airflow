@@ -9,8 +9,8 @@ from airflow.utils.dates import days_ago
 default_args = {
     'owner': 'Binh Phan',
     'depends_on_past': False,
-    'start_date': days_ago(2),
-    'email': ['btphan95@gmail.com'],
+    'start_date': days_ago(31),
+    'email': ['example@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
@@ -29,6 +29,8 @@ default_args = {
     # 'sla_miss_callback': yet_another_function,
     # 'trigger_rule': 'all_success'
 }
+
+#instantiates a directed acyclic graph
 dag = DAG(
     'ml_pipeline',
     default_args=default_args,
@@ -36,13 +38,13 @@ dag = DAG(
     schedule_interval=timedelta(days=30),
 )
 
-# t1, t2 and t3 are examples of tasks created by instantiating operators
+# instantiate tasks using Operators.
+#BashOperator defines tasks that execute bash scripts. In this case, we run Python scripts for each task.
 download_images = BashOperator(
     task_id='download_images',
     bash_command='python3 /usr/local/airflow/scripts/download_images.py',
     dag=dag,
 )
-
 train = BashOperator(
     task_id='train',
     depends_on_past=False,
@@ -62,4 +64,6 @@ serve = BashOperator(
     dag=dag,
 )
 
+#sets the ordering of the DAG. The >> directs the 2nd task to run after the 1st task. This means that
+#download images runs first, then train, then serve.
 download_images >> train >> serve
