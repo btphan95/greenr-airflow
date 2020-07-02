@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://medium.com/@btphan95/10-minutes-to-building-a-machine-learning-pipeline-with-apache-airflow-53cd09268977"><img src="https://github.com/btphan95/greenr-airflow/blob/master/preview.png?raw=true" align="middle" height="300" width="300" ></a>
+  <a href="https://medium.com/@btphan95/10-minutes-to-building-a-machine-learning-pipeline-with-apache-airflow-53cd09268977"><img src="https://github.com/btphan95/greenr-airflow/blob/master/preview.png?raw=true" align="middle" ></a>
 </p>
 
 # greenr-airflow
