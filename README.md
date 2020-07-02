@@ -4,7 +4,7 @@
 
 # greenr-airflow
 
-This repo is part of a tutorial [10 Minutes to Building a Machine Learning Pipeline with Apache Airflow](https://medium.com/@btphan95/10-minutes-to-building-a-machine-learning-pipeline-with-apache-airflow-53cd09268977) where you will build a simpleML pipeline from scratch using Apache AirFlow. It is meant for developers who are just getting started with building pipelines and want a template to build on.
+This repo is part of a tutorial [10 Minutes to Building a Machine Learning Pipeline with Apache Airflow](https://medium.com/@btphan95/10-minutes-to-building-a-machine-learning-pipeline-with-apache-airflow-53cd09268977) where you will build a simple ML pipeline from scratch using Apache AirFlow. It is meant for developers who are just getting started with building pipelines and want a template to build on.
 
 A [ML pipeline](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning) allows you to automate the machine learning process and achieve continuous delivery of ML models. 
 
